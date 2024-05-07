@@ -65,8 +65,7 @@ video{
     height: 2px;
     width: 80%;
     background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
-    margin: 10px 0;
-    position: relative;
+     position: relative;
     left: 10%;
 }
 
@@ -85,4 +84,33 @@ video{
     background: url('../img/solo-min.avif');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.fondoPlan{
+    background: url('../img/solo-min.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.derecha{
+background: url('../img/fondo-column.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.izquierda{
+    background: url('../img/fondo-columnn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .cuadrado{
+        background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+font-size: 4rem;
+ text-align: center;
+color: white;
+    }
+
+.left{
+    position: relative;
+    left: 45%;
 }
