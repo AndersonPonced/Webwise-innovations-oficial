@@ -3,6 +3,7 @@ import './css/style.css'
 import Principal from './components/principal';
 import Barra from './components/barra';
 import Plan from './components/plan';
+import Contenido from './components/contenido';
   function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ import Plan from './components/plan';
 <Principal/>
  <Barra/>
  <Plan/>
+ <Contenido/>
     </div>
   );
 }

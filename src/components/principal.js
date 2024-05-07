@@ -8,9 +8,9 @@ export const Principal = () => {
     <div className='fondo h-screen w-screen flex flex-col'>
       <Navbar />
       <div className='flex flex-col md:flex-row justify-between flex-grow'>
-        <div className='flex flex-col justify-center px-4 text-white font-bold md:w-1/2'>
+        <div className=' flex flex-col justify-center px-4 text-white font-bold md:w-1/2'>
           {/* Aquí debe de haber un texto que pondrás después, este es la izquierda */}
-          <h1 className='text-4xl md:text-6xl text-center mt-10 md:mt-40'>EN <span>WEBWISE INNOVATIONS</span> NO SOLO CONSTRUIMOS TU PÁGINA WEB, CREAMOS TU PRESENCIA DIGITAL EXTRAORDINARIA</h1>
+          <h1 className='text-4xl md:text-6xl text-center mt-10'>EN <span>WEBWISE INNOVATIONS</span> NO SOLO CONSTRUIMOS TU PÁGINA WEB, CREAMOS TU PRESENCIA DIGITAL EXTRAORDINARIA</h1>
           <p className='text-center mb-10'>Aprovecha al máximo las oportunidades digitales y abre las puertas a nuevos clientes, socios y colaboradores.</p>
           {/* Mostrar el logo en el centro con animación cuando el video está pausado */}
            

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,59 +14,60 @@ body {
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-   
-         overflow-x: hidden;
-     
+        "wdth" 100;
+background-color: black;
+    overflow-x: hidden;
+
 }
 
-p{
+p {
     font-family: "Aleo", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-.nav{
+.nav {
     font-family: "Oswald", sans-serif;
 
 }
 
-.fondo{
+.fondo {
 
-background: url('../img/fanda-min-min-min-min.avif');
-background-repeat: no-repeat;
-background-size: cover;
+    background: url('../img/fanda-min-min-min-min.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 span {
     color: #ffffff;
     text-shadow: 3px 3px 6px #5dff9b;
- }
+}
 
 
-.button{
+.button {
     background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
-    
+
 
 }
 
-video{
+video {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 5px rgb(112, 255, 93);
 
 }
 
-.lef{
-     left: 75%;
-     top: 45%;
-     
+.lef {
+    left: 75%;
+    top: 45%;
+
 }
 
 .linea-verde-dos {
     height: 2px;
     width: 80%;
-    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
-     position: relative;
+    background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    position: relative;
     left: 10%;
 }
 
@@ -74,43 +76,84 @@ video{
 .linea-verde {
     height: 2px;
     width: 50%;
-    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
     position: relative;
     left: 25%;
 }
 
 
-.fondo-barra{
+.fondo-barra {
     background: url('../img/solo-min.avif');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.fondoPlan{
+.fondoPlan {
     background: url('../img/solo-min.avif');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.derecha{
-background: url('../img/fondo-column.jpg');
-background-repeat: no-repeat;
-background-size: cover;
+.derecha {
+    background: url('../img/fondo-column.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.izquierda{
+
+.izquierda {
     background: url('../img/fondo-columnn.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
-    .cuadrado{
-        background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
-font-size: 4rem;
- text-align: center;
-color: white;
-    }
+.todo {
+    height: 317vh;
+}
 
-.left{
+@media (min-width: 768px) {
+    .todo {
+        height: 172vh;
+    }
+}
+
+
+
+
+.cuadrado {
+    background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.left {
     position: relative;
     left: 45%;
 }
+
+/* .fondo-globo{
+    background: url('../img/fondo.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+} */
+
+.circulo-con-sombra {
+    width: 5vw; /* Diámetro del círculo */
+     border-radius: 50%; /* Hace que el div sea un círculo */
+ box-shadow: 0px 0px 100px 30px green;
+ position: relative;
+ 
+}
+
+.circulo-con-sombraa {
+    width: 10px; /* Diámetro del círculo */
+     border-radius: 50%; /* Hace que el div sea un círculo */
+ box-shadow: 0px 0px 100px 30px green;
+ position: relative;
+ top: 80px;
+ left: 100%;
+
+}
+ 
