@@ -55,7 +55,7 @@ export const Contenido = () => {
 
             </div>
 
-            <div className='flex justify-center mt-10'>
+            <div className='flex justify-center mt-10 mb-2'>
                 {/* Agregué la clase 'mb-8' para agregar un espacio entre el botón y el contenido principal */}
                 <button className='h-14 text-2xl text-white w-80 rounded-full button'>ELEVA TU PRESENCIA</button>
             </div>

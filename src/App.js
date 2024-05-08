@@ -4,6 +4,8 @@ import Principal from './components/principal';
 import Barra from './components/barra';
 import Plan from './components/plan';
 import Contenido from './components/contenido';
+import SomosLaSolicion from './components/somosLaSolucion';
+import Porque from './components/porque';
   function App() {
   return (
     <div className="App">
@@ -12,6 +14,8 @@ import Contenido from './components/contenido';
  <Barra/>
  <Plan/>
  <Contenido/>
+ <SomosLaSolicion/>
+ <Porque/>
     </div>
   );
 }
