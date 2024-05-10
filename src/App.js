@@ -6,6 +6,7 @@ import Plan from './components/plan';
 import Contenido from './components/contenido';
 import SomosLaSolicion from './components/somosLaSolucion';
 import Porque from './components/porque';
+import Importancia from './components/importancia';
   function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ import Porque from './components/porque';
  <Contenido/>
  <SomosLaSolicion/>
  <Porque/>
+ <Importancia/>
     </div>
   );
 }

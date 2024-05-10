@@ -10,7 +10,7 @@ export const Plan = () => {
         <h1 className="text-6xl font-bold text-center m-4"><span>Planes de trabajo</span></h1>
       </div>
       <div className="todo h-full">
-        <div className="derecha flex flex-col md:flex-row items-center justify-between p-4 text-center">
+        <div className="derechaa flex flex-col md:flex-row items-center justify-between p-4 text-center">
           <div className="mb-4 md:mb-0">
             <div className="cuadrado w-20 h-20 rounded-lg relative left">01</div>
             <h2 className="mt-4 text-5xl text-center m-2"><span>Plan Completo</span></h2>
