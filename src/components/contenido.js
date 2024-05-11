@@ -27,7 +27,16 @@ export const Contenido = () => {
             ]
         }
     ];
-
+    const handleWhatsAppButtonClick = () => {
+        // Reemplaza "123456789" con el número de teléfono al que deseas enviar el mensaje de WhatsApp
+        const phoneNumber = '+5491134674195';
+        // Construye el enlace de WhatsApp con el número de teléfono
+        const whatsappLink = `https://wa.me/${phoneNumber}`;
+        // Redirecciona a la página de WhatsApp
+        window.open(whatsappLink, '_blank');
+      };
+    
+    
     return (
 
         <div className="bg-black  h-full w-full text-white p-4">
@@ -35,7 +44,7 @@ export const Contenido = () => {
             <h2 className="text-center text-6xl m-3"><span>Contenido del plan</span></h2>
             <div className="flex flex-wrap justify-around text-center">
                 {tarjetas.map((tarjeta, index) => (
-                    <div key={index} className="w-full  m-1 md:w-96 relative p-4  border border-white rounded-lg" >
+                    <div key={index} className="w-full  m-1 md:w-96 relative p-4  border border-white rounded-lg hover:scale-105 transition-transform" >
                         <h3 className="text-4xl text-white mb-4"><span>{tarjeta.tituloPrincipal}</span></h3>
                         <div className="  rounded-lg p-2" style={{ background: ' linear-gradient(to right, rgba(0, 151, 178, 0.5), rgba(126, 217, 87, 0.5))' }}>
                             {tarjeta.subtitulos.map((subtitulo, subIndex) => (
@@ -57,7 +66,7 @@ export const Contenido = () => {
 
             <div className='flex justify-center mt-10 mb-2'>
                 {/* Agregué la clase 'mb-8' para agregar un espacio entre el botón y el contenido principal */}
-                <button className='h-14 text-2xl text-white w-80 rounded-full button'>ELEVA TU PRESENCIA</button>
+                <button onClick={handleWhatsAppButtonClick} className='h-14 text-2xl text-white w-80 rounded-full button'>CONTÁCTANOS POR WHATSAPP</button>
             </div>
 
             <div className="circulo-con-sombraa "></div>

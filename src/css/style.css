@@ -52,7 +52,14 @@ span {
 .button {
     background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
 
+    transition: all 0.3s ease-in-out; /* Agrega una transición suave */
+border: solid 2px #21CA6B ;
+}
+ 
 
+.button:hover {
+  transform: scale(1.1); /* Aumenta el tamaño en un 50% */
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.7); /* Agrega un box-shadow blanco */
 }
 
 video {
@@ -102,18 +109,24 @@ video {
     background: url('../img/fondo-column.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 2px #21CA6B ;
+
 }
 
 .derechaa {
     background: url('../img/fondo-columnnn.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 2px #21CA6B ;
+
 }
 
 .izquierda {
     background: url('../img/fondo-columnn.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 2px #21CA6B ;
+
 }
 
 .todo {
@@ -139,7 +152,15 @@ video {
 
 .left {
     position: relative;
-    left: 45%;
+    left: 40%;
+    margin-top: 1%;
+}
+
+@media (min-width: 768px) {
+    .left {
+        position: relative;
+        left: 45%;
+    }
 }
 
 /* .fondo-globo{
@@ -228,4 +249,8 @@ position: relative;
 
 .elemento img {
     height: 100%;
+}
+
+.clientes{
+    background: url('../img/clientes.jpg');
 }
