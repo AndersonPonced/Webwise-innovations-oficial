@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="fondo text-white py-4 flex justify-between items-center">
             {/* Logo en la izquierda */}
             <div className="ml-4">
-                <img src={logo} alt="Logo" className="h-20" />
+            <a href="/">    <img src={logo} alt="Logo" className="h-24" /></a>
             </div>
             
             {/* Texto en el centro */}

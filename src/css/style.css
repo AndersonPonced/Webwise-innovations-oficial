@@ -90,6 +90,7 @@ video {
     background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
     position: relative;
     left: 25%;
+    
 }
 
 
@@ -97,6 +98,7 @@ video {
     background: url('../img/solo-min.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 4%;
 }
 
 .fondoPlan {
@@ -192,6 +194,7 @@ video {
     left: 100%;
 
 }
+ 
 
 .linea-y {
     width: .3vw;
@@ -254,3 +257,4 @@ position: relative;
 .clientes{
     background: url('../img/clientes.jpg');
 }
+

@@ -7,7 +7,8 @@ import Contenido from './components/contenido';
 // import SomosLaSolicion from './components/somosLaSolucion';
 import Porque from './components/porque';
 import Footer from './components/footer';
-import Clientes from './components/clientes';
+import ScrollToTopButton from './components/ScrollToTopButton';
+// import Clientes from './components/clientes';
 // import Importancia from './components/importancia';
   function App() {
   return (
@@ -15,12 +16,14 @@ import Clientes from './components/clientes';
 
 <Principal/>
  <Barra/>
+ {/*Aqui*/}
  <Plan/>
  <Contenido/>
  {/* <SomosLaSolicion/> */}
- <Clientes/>
+ {/* <Clientes/> */}
  <Porque/>
  {/* <Importancia/> */}
+ <ScrollToTopButton/>
  <Footer/>
     </div>
   );

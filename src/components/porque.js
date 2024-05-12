@@ -8,7 +8,7 @@ import img6 from '../iconos/reloj.png'
 
 export const Porque = () => {
   return (
-    <div className="bg-black min-h-screen flex flex-col justify-center items-center">
+    <div id="saber-mas-section" className="bg-black min-h-screen flex flex-col justify-center items-center">
       <h2 className="text-4xl md:text-6xl text-white m-3 text-center"><span>¿Por qué Webwiseinn?</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
         <div className="h-80 md:h-96 p-4 flex flex-col justify-center items-center rounded-lg border-solid border-2  border-white hover:scale-105 transition-transform" style={{ background: ' linear-gradient(to right, rgba(0, 151, 178, 0.4), rgba(126, 217, 87, 0.4))' }}>

@@ -39,7 +39,7 @@ export const Contenido = () => {
     
     return (
 
-        <div className="bg-black  h-full w-full text-white p-4">
+        <div id="servicios-section" className="bg-black  h-full w-full text-white p-4">
             <div className="circulo-con-sombra "></div>
             <h2 className="text-center text-6xl m-3"><span>Contenido del plan</span></h2>
             <div className="flex flex-wrap justify-around text-center">
