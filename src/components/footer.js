@@ -4,7 +4,7 @@ import instagramIcon from '../iconos/instagram.png';
 
 const Footer = () => {
     return (
-        <footer className="fondo text-white py-4 flex justify-between items-center">
+        <footer className=" text-white py-4 flex justify-between items-center">
             {/* Logo en la izquierda */}
             <div className="ml-4">
             <a href="/">    <img src={logo} alt="Logo" className="h-24" /></a>

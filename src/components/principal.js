@@ -16,7 +16,7 @@ export const Principal = () => {
   return (
     <div  className='fondo h-screen w-screen flex flex-col'>
       <Navbar />
-      <div className='flex flex-col md:flex-row justify-between flex-grow  '>
+      <div className='principal flex flex-col md:flex-row justify-between flex-grow  '>
         <div className='flex flex-col justify-center px-4 text-white font-bold md:w-1/2'>
           {/* Aquí debe de haber un texto que pondrás después, este es la izquierda */}
           <h1 className='text-4xl min-text-2xl md:text-6xl text-center mt-5 md:mt-10'>EN <span>WEBWISE INNOVATIONS</span> NO SOLO CONSTRUIMOS TU PÁGINA WEB, CREAMOS TU PRESENCIA DIGITAL EXTRAORDINARIA</h1>

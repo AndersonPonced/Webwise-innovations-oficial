@@ -17,7 +17,7 @@ export const Plan = () => {
 
   return (
     <div id="planes-section" className="todo flex flex-col ">
-      <div className="fondoPlan flex-grow">
+      <div className=" flex-grow">
         <h1 className="text-6xl font-bold text-center m-4"><span>Planes de trabajo</span></h1>
       </div>
       <div className="todo h-full">

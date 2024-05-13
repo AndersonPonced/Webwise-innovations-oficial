@@ -15,8 +15,12 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    background-color: black;
-    overflow-x: hidden;
+        background: url('../img/fondo-negro.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* Esto hace que el fondo se fije mientras el contenido se desplaza */
+
+            overflow-x: hidden;
 
 }
 
@@ -34,14 +38,17 @@ p {
 
 .fondo {
 
-    background: url('../img/fanda-min-min-min-min.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background: url('../img/fanda-min-min-min-min.avif'); */
+  
+    
 }
 
 span {
     color: #ffffff;
     text-shadow: 3px 3px 6px #5dff9b;
+}
+.pequeño{
+    font-weight: 100;
 }
 
 .span {
@@ -140,6 +147,16 @@ video {
         height: 172vh;
     }
 }
+ 
+
+
+
+@media (max-width: 320px ), (max-width: 785px){
+    .todo {
+        height: 400vh;
+     }
+}
+
 
 
 
@@ -258,3 +275,4 @@ position: relative;
     background: url('../img/clientes.jpg');
 }
 
+ 

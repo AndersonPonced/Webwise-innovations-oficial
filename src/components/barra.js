@@ -5,7 +5,7 @@ import img3 from '../img/icon-tres-removebg-preview.png';
 
 export const Barra = ()=>{
     return (
-        <div className="fondo-barra w-screen">
+        <div className="mb-5 w-screen todoo">
             <div className="linea-verde"></div>
 
             {/* Utilizamos clases de Tailwind para mostrar en una columna en dispositivos móviles y tabletas */}

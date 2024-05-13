@@ -8,6 +8,7 @@ import Contenido from './components/contenido';
 import Porque from './components/porque';
 import Footer from './components/footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import Metodos from './components/metodos';
 // import Clientes from './components/clientes';
 // import Importancia from './components/importancia';
   function App() {
@@ -19,6 +20,7 @@ import ScrollToTopButton from './components/ScrollToTopButton';
  {/*Aqui*/}
  <Plan/>
  <Contenido/>
+ <Metodos/>
  {/* <SomosLaSolicion/> */}
  {/* <Clientes/> */}
  <Porque/>
