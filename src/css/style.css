@@ -33,6 +33,7 @@ p {
 
 .nav {
     font-family: "Oswald", sans-serif;
+    z-index: 2;
 
 }
 
@@ -139,22 +140,19 @@ video {
 }
 
 .todo {
-    height: 317vh;
+    height: 100vh;
+    margin-bottom: 5%;
 }
 
 @media (min-width: 768px) {
-    .todo {
-        height: 172vh;
-    }
+   
 }
  
 
 
 
 @media (max-width: 320px ), (max-width: 785px){
-    .todo {
-        height: 400vh;
-     }
+   
 }
 
 
@@ -274,5 +272,19 @@ position: relative;
 .clientes{
     background: url('../img/clientes.jpg');
 }
+
+ .img{
+    width:55vw;
+    height: 50vh;
+ }
+
+ .sombra{
+    box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+
+ }
+
+ .h{
+    height: 100%;
+ }
 
  
